@@ -1,6 +1,4 @@
-# Vue Cinema
----
-A VueJS project to search movies, get the list of trending, top rated, latest and upcoming movies. A user can make movies favourite which is going to be saved in Local Storage. The project uses themoviedb API to fetch movies.
+# Cinema
 
 ## Features and Tools Used:
 
@@ -13,43 +11,40 @@ A VueJS project to search movies, get the list of trending, top rated, latest an
 6. vue-carousel
 7. vue-youtube
 9. vue-js-modal
+10.Moviedb Api
 
 
 ## How to Load the App
-
-You can run a hosted version of the app at [https://vuemovies.netlify.com/](https://vuemovies.netlify.com/)
-
-The project uses Node.js and the vue cli 3. If you do not have Node >= 6.x installed, you can download it here: [Node.js](https://nodejs.org/en/)
-
-Once Node is installed, navigate to the directory where you want to store the app
-
-```
-git clone https://github.com/Akash187/vue-cinema.git
-yarn install
-```
+>>npm install 
+for installing all dependencies
+After That
+>>npm run serve 
 
 Once all of the dependencies have been installed you have to create a .env file in root of folder and store API key that you have to get from [TheMovieDB API](https://www.themoviedb.org) 
 
 ```
-VUE_APP_API_KEY=00a92b6389f4uhgr45d35d33c3b1c282
+VUE_APP_API_KEY=226fa11333b277fbfc18b9649fc449fc
 ```
 
 After setting up .env file you can run project by below command
 
 ```
-yarn serve
+npm run serve
 ```
+If You got broken package error then run this command in your terminal
+>> export NODE_OPTIONS=--openssl-legacy-provider
+After run 
+>>npm run serve
 
-A new browser window should automatically open displaying the app. If it doesn't, navigate to [http://localhost:8080/](http://localhost:8080/) in your browser# vue-cinema
 
 ## Project setup
 ```
-yarn install
+npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+npm run serve
 ```
 
 ### Compiles and minifies for production
@@ -69,3 +64,5 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+Moviedb  Api reference >> https://developers.themoviedb.org/3
+The app is deployed on netlify >> https://decode6-amit-movie.netlify.app
