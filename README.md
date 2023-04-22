@@ -62,7 +62,7 @@ yarn run test
 yarn run lint
 ```
 
-### Customize configuration
+###  configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 Moviedb  Api reference >> https://developers.themoviedb.org/3
 The app is deployed on netlify >> https://decode6-amit-movie.netlify.app
